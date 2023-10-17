@@ -673,8 +673,8 @@ hr {
   /*BLOG*/
 
   .blog-img__wrap img{
-    width: 220px !important; 
-    height: 150px !important;
+    width: 280px ; 
+    height: 200px ;
   }
 
   /* footer */
@@ -921,8 +921,9 @@ hr {
   .blog-img{
     width: 100%;
   }
-  .blog-img img{
-    width: 100%;
+  .blog-img__wrap img{
+    width: 100% ; 
+    height: auto ;
   }
   .blog-slide .content-card{
     align-items: start;
