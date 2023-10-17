@@ -1,7 +1,9 @@
 /* меню */
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.header__burger').addEventListener('click', function() {
-      document.querySelector('.header__burger, .header-menu, .header-contact__button').classList.toggle('active');
+      document.querySelector('.header-menu').classList.toggle('active');
+      document.querySelector('.header-contact__button').classList.toggle('active');
+      document.querySelector('.header__burger').classList.toggle('active');
       document.querySelector('body').classList.toggle('lock');
     });
   });

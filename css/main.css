@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap');    /* Шрифты  */
+
 /* обнуляющие стили */
 *,
 *:before,
@@ -176,7 +178,7 @@ a:hover {
       rgba(55, 46, 46, 0.4),
       rgba(55, 46, 46, 0.4)
     ),
-    url("../img/shutterstock_795013699\ 1.png");
+    url("../img/shutterstock_795013699-1-min.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -668,6 +670,12 @@ hr {
 
   /* end we are local */
 
+  /*BLOG*/
+
+  .blog-img__wrap img{
+    width: 220px !important; 
+    height: 150px !important;
+  }
 
   /* footer */
 
